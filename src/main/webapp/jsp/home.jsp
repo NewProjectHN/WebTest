@@ -13,7 +13,7 @@
 </head>
 <body>
 	Hello World
-	Test
+	Test reponsity
 		<br />
 	<s:iterator value="homeBean.categoryLst">
 		<s:property value="CategoryID" /> -	<s:property value="CategoryName" />
