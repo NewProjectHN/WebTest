@@ -13,6 +13,7 @@
 </head>
 <body>
 	Hello World
+	Test
 		<br />
 	<s:iterator value="homeBean.categoryLst">
 		<s:property value="CategoryID" /> -	<s:property value="CategoryName" />
