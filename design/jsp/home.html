@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<link href="../css/style.css" rel="stylesheet"/>
+<link href="../lib/jquery/jquery-ui.css" rel="stylesheet">
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/jquery/jquery-ui.js"></script>
+<script src="../js/script.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="banner">
+			<div class="add-location">Thêm điểm đến </div>
+			<div class="login-bar">
+			  <a href="default.asp">Đăng nhập</a>
+			  <a href="news.asp">Đăng ký</a>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="left-menu">
+				<ul class="horizontal">
+				  <li><a href="default.asp">Trang chủ</a></li>
+				  <li><a href="news.asp">Điểm đến</a></li>
+				  <li><a href="contact.asp">Lịch trình</a></li>
+				  <li><a href="about.asp">Liên hệ</a></li>
+				</ul>
+			</div>
+			<div id="add-tour">
+				Thêm lịch trình
+			</div>
+		</div>
+		<div class="body">
+			<div id="left-body">
+				<div class="search">
+					<select>
+						<option value="volvo">--Chọn Điểm Đến--</option>
+						<option value="volvo">Ha Noi</option>
+						<option value="saab">Phu Quoc</option>
+						<option value="mercedes">Da Nang</option>
+					</select>
+					
+					<select>
+						<option value="volvo">--Chọn Loại Dịch Vụ--</option>
+						<option value="volvo">Lưu trú</option>
+						<option value="saab">Giải trí</option>
+						<option value="mercedes">Ăn chính</option>
+						<option value="mercedes">Ăn Vặt</option>
+					</select>
+					
+					<input type="radio" name="gender" value="male"> Điểm đến
+					<input type="radio" name="gender" value="female"> Lịch trình
+					
+					<input type="text"></input>
+					
+					<input type="button" value="Tim kiem"/>
+				</div>
+				<div class="new-distination">
+					<div class="new-header">Điểm đến mới</div>
+					<div class="element-data">
+						<span class="header-txt">demo lab001</span>
+						<span class="content-txt">
+							sdf sf sdf sdf sd sd fsdfs dfs dfsdfs fds
+							sdfsdf sdfs sdf ssdfsdfsdf
+							dfsdfs sdf sdf
+						</span>
+					</div>
+					<div class="element-data">
+						<span class="header-txt">demo lab001</span>
+						<span class="content-txt">
+							sdf sf sdf sdf sd sd fsdfs dfs dfsdfs fds
+							sdfsdf sdfs sdf ssdfsdfsdf
+							dfsdfs sdf sdf
+						</span>
+					</div>
+					<div class="element-data">
+						<span class="header-txt">demo lab001</span>
+						<span class="content-txt">
+							sdf sf sdf sdf sd sd fsdfs dfs dfsdfs fds
+							sdfsdf sdfs sdf ssdfsdfsdf
+							dfsdfs sdf sdf
+						</span>
+					</div>
+					<div class="element-data">
+						<span class="header-txt">demo lab001</span>
+						<span class="content-txt">
+							sdf sf sdf sdf sd sd fsdfs dfs dfsdfs fds
+							sdfsdf sdfs sdf ssdfsdfsdf
+							dfsdfs sdf sdf
+						</span>
+					</div>
+				</div>
+				<div class="new-distination">
+					<div class="new-header">Lịch trình mới</div>
+					<div class="element-data">
+						<span class="header-txt">demo lab001</span>
+						<span class="content-txt">
+							sdf sf sdf sdf sd sd fsdfs dfs dfsdfs fds
+							sdfsdf sdfs sdf ssdfsdfsdf
+							dfsdfs sdf sdf
+						</span>
+					</div>
+					<div class="element-data">
+						<span class="header-txt">demo lab001</span>
+						<span class="content-txt">
+							sdf sf sdf sdf sd sd fsdfs dfs dfsdfs fds
+							sdfsdf sdfs sdf ssdfsdfsdf
+							dfsdfs sdf sdf
+						</span>
+					</div>
+					<div class="element-data">
+						<span class="header-txt">demo lab001</span>
+						<span class="content-txt">
+							sdf sf sdf sdf sd sd fsdfs dfs dfsdfs fds
+							sdfsdf sdfs sdf ssdfsdfsdf
+							dfsdfs sdf sdf
+						</span>
+					</div>
+					<div class="element-data">
+						<span class="header-txt">demo lab001</span>
+						<span class="content-txt">
+							sdf sf sdf sdf sd sd fsdfs dfs dfsdfs fds
+							sdfsdf sdfs sdf ssdfsdfsdf
+							dfsdfs sdf sdf
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="right-body">
+				<h3>Tạo lịch trình cho bạn</h3>
+				<div class="schedule-time">
+					<div>Từ ngày: <input type="text" id="fromDate"/></div>
+					<div>Đến ngày: <input type="text" id="toDate"/></div>
+					<div>Số ngày: <input type="text" id="countDate"/></div>
+					<div><input type="button" id="btn-create-tour" value="Tao chuyen di"/></div>
+				</div>
+				<div class="schedule-detail">
+					<div class="schedule-day">
+						<div class="day-header">
+							<div class="day-time">Ngày 1: 12/05/2015</div>
+							<div class="remove-all-trip"></div>
+							<div class="add-trip"></div>
+						</div>
+						<div class="day-tour">
+							<ul class="day-trip">
+								<li class="action-trip">
+									<div class="direction2"></div>
+									<input class="time" name="time" value="Sáng"></input>
+									<input class="position" name="position" value="Create lab"></input>
+									<input class="fee" name="fee" value="30 K"></input>
+									<div class="remove-trip"></div>
+								</li>
+								<li class="action-trip">
+									<div class="direction2"></div>
+									<input class="time" name="time" value="Sáng"></input>
+									<input class="position" name="position" value="Create lab"></input>
+									<input class="fee" name="fee" value="30 K"></input>
+									<div class="remove-trip"></div>
+								</li>
+								<li class="action-trip">
+									<div class="direction2"></div>
+									<input class="time" name="time" value="Sáng"></input>
+									<input class="position" name="position" value="Create lab"></input>
+									<input class="fee" name="fee" value="30 K"></input>
+									<div class="remove-trip"></div>
+		
+								</li>
+							</ul>
+						</div>
+					</div>
+					<h3 class="day-time">Ngày 2: 13/05/2015</h3>
+					<ul class="day-trip">
+						<li class="action-trip">
+							<div class="direction2"></div>
+							<input class="time" name="time" value="Sáng"></input>
+							<input class="position" name="position" value="Create lab"></input>
+							<input class="fee" name="fee" value="30 K"></input>
+							<div class="remove-trip"></div>
+							<div class="add-trip"></div>
+						</li>
+						<li class="action-trip">
+							<div class="direction2"></div>
+							<input class="time" name="time" value="Sáng"></input>
+							<input class="position" name="position" value="Create lab"></input>
+							<input class="fee" name="fee" value="30 K"></input>
+							<div class="remove-trip"></div>
+							<div class="add-trip"></div>
+						</li>
+						<li class="action-trip">
+							<div class="direction2"></div>
+							<input class="time" name="time" value="Sáng"></input>
+							<input class="position" name="position" value="Create lab"></input>
+							<input class="fee" name="fee" value="30 K"></input>
+							<div class="remove-trip"></div>
+							<div class="add-trip"></div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+div{
+	float: left;
+	position: relative;
+}
+
+.wrapper{
+	width: 80%;
+	margin-left: 10%;
+	height:auto;
+	min-width: 500px;
+}
+
+.banner{
+	width: 100%;
+	height: 200px;
+}
+
+.menu{
+	width: 100%;
+	height: 48px;
+	/* position: relative; */
+}
+
+.left-menu ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	display: block;
+    /*-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;*/
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+ul.horizontal li {
+    float: left;
+}
+
+li {
+    /* display: list-item; */
+    /* text-align: -webkit-match-parent; */
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.move-icon{
+	background-color:red
+}
+
+.direction2{
+	background-image: url('../img/icon-arrows-two-directions.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 11%;
+	height: 20px;
+	clear: left;
+}
+
+.time{
+width: 10%;
+float: left;
+position: relative;
+/* display: inline-block; */
+}
+
+.position{
+width: 10%;
+float: left;
+position: relative;
+/* display: inline-block; */
+}
+
+.fee{
+width: 10%;
+float: left;
+/* position: relative; */
+/* display: inline-block; */
+}
+							
+.left-menu{
+	height: 0px;
+	width:auto;
+}
+
+#add-tour{
+	float: right;
+	align-content: center;
+	height: 40px;
+	line-height: 40px;
+	background-color: green;
+	position: absolute;
+	right: 0px;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	border-radius: 15px;
+	width: 110px;
+	text-align: center;
+}
+
+.login-bar{
+float: right;
+height: 30px;
+width: 200px;
+text-align: center;
+line-height: 30px;
+margin-top: 0px;
+background-color: green;
+opacity: 0.5;
+/* color: yellow; */
+}
+
+.body{
+
+}
+
+#left-body{
+	width: calc(100% - 405px);
+}
+
+#right-body{
+
+	width: 400px;
+}
+
+.search{
+
+}
+
+.new-distination{
+	width:  100%;
+}
+
+.element-data{
+	width: 49%;
+	min-width:200px;
+}
+
+.new-header{
+	width: 99%;
+	height: 20px;
+	background-color: green;
+	border-radius: 15px;
+}
+
+.add-location{
+	left: 20%;
+	top: 60%;
+	position:absolute;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	background-color: green;
+	color: white;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.day-header{
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.day-trip {
+	/* margin-top: 0px; */
+	/* padding: 10px 10px 10px; */
+	min-height: 20px;
+	list-style-type: none;
+	/* -webkit-padding-start: 0px; */
+	/* -webkit-margin-before: 0; */
+	/* -webkit-margin-after: 0; */
+}
+
+.remove-trip{
+	background-image: url("../img/delete.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+
+.remove-all-trip{
+	background-image: url("../img/delete.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+
+.add-trip{
+	background-image: url("../img/add.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+
+.schedule-day{
+	width: 100%;
+}
+
+.day-trip li {
+	/* top: 12px; */
+	height: 26px;
+	width: 100%;
+}
+
+.day-tour{
+	width: 100%;
+}
+.action-trip{
+	/* margin: 0 0px 6px 26px; */
+	padding: 3px;
+	width: 100%;
+}
+
+.schedule-detail{
+	width:100%;
+}
